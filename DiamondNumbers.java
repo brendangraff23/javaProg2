@@ -28,6 +28,7 @@ public class DiamondNumbers
         System.out.println("Input the number of rows to the midpoint of the diamond/number pattern?");
         Scanner scanner = new Scanner(System.in);
         final int in = scanner.nextInt();
+     //Counts number of spaces to input
         int counter = in;
 
         for(int i = 1; i <= in; i++)
